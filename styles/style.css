@@ -99,7 +99,7 @@ body {
 .container-2 {
 
     width: 25%;
-    height: 300px;
+    height: 250px;
     background-color: #161616;
     border-radius: 15px;
 
@@ -130,57 +130,60 @@ body {
 }
 
 
-nav li {
-    list-style: none;
+.menu-bar {
+    color: #121212;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+
 
 
 }
 
-nav li a {
-    color: #121212;
+.link-class {
     text-decoration: none;
+    color: #121212;
     display: block;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 15px;
+    margin: 10%;
 }
 
 .btn-2 {
 
     background-color: #FFFF;
-    margin-top: 50px;
-    margin-right: 10%;
+    margin-top: 12%;
     border-radius: 5px;
+    padding: 10px;
+
 
 }
 
 .btn-3 {
 
     background-color: #FFFF;
-    margin-top: 18px;
-    margin-right: 10%;
+    margin-top: 12%;
     border-radius: 5px;
+    padding: 10px;
 
 
 }
 
 .btn-4 {
-
+    color: #B9B9B9;
     background-color: red;
     margin-top: 18px;
     border-radius: 5px;
-    margin-right: 10%;
+
+    padding: 10px;
 
 
 }
 
 .btn-5 {
-
+    color: #E8E8E8;
     background-color: red;
-    margin-top: 45px;
+    margin-top: 18px;
     border-radius: 5px;
-    margin-right: 10%;
-
+    padding: 10px;
 }
 
 .players {
@@ -188,6 +191,7 @@ nav li a {
     width: 65%;
     margin: 0 auto;
 }
+
 
 .player {
 
