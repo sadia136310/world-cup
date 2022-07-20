@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* google-font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Rubik+Moonrocks&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+/*-----------header section start here------------ */
+
+.header-section {
+    width: 100%;
+    padding: 3%;
+}
+
+.header-title {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #161616;
+    border-radius: 15px;
+    height: 550px;
+    display: flex;
+
+}
+
+.header-text {
+
+    color: #FFFF;
+    width: 50%;
+    padding: 8%;
+
+}
+
+.heading-1 {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 2%;
+}
+
+.para-text {
+
+    color: #B9B9B9;
+}
+
+.btn {
+
+    background-color: #DD0000;
+    color: #FFFF;
+    margin-top: 8%;
+    padding: 3%;
+    border-radius: 5%;
+    border: 1px solid #DD0000;
+
+}
+
+.btn:hover {
+    border: 3px solid #DD0000;
+}
+
+.header-title img {
+    height: 550px;
+    width: 581px;
+    padding-top: 5%;
+    padding-right: 6%;
+}
+
+/*-----------header section end here------------ */
+
+
+/* -----<<< main section start here --->>> */
+
+.containers {
+    width: 100%;
+
+}
+
+.container-1 {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 3%;
+    padding-left: 3%;
+
+
+}
+
+.container-2 {
+    height: 312px;
+    width: 300px;
+    background-color: #161616;
+    border-radius: 15px;
+
+
+
+}
+
+.container-3 {
+    margin-top: 7%;
+    display: flex;
+    column-gap: 10px;
+
+
+}
+
+.container-4 {
+    display: flex;
+    column-gap: 8px;
+    margin-left: 6%;
+
+}
+
+.fa-clock.color,
+.fa-message.color {
+    color: #B9B9B9;
+
+
+}
+
+
+nav li {
+    list-style: none;
+
+}
+
+nav li a {
+    color: #121212;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.btn-2 {
+
+    background-color: #FFFF;
+    margin-top: 50px;
+    margin-right: 15%;
+    border-radius: 5px;
+
+}
+
+.btn-3 {
+
+    background-color: #FFFF;
+    margin-top: 18px;
+    margin-right: 15%;
+    border-radius: 5px;
+
+
+}
+
+.btn-4 {
+
+    background-color: red;
+    margin-top: 18px;
+    border-radius: 5px;
+    margin-right: 15%;
+
+}
+
+.btn-5 {
+
+    background-color: red;
+    margin-top: 45px;
+    border-radius: 5px;
+    margin-right: 15%;
+
+}
+
+.players {
+
+    width: 56%;
+    margin: 0 auto;
+}
+
+.player {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    column-gap: 4%;
+    row-gap: 7%;
+
+
+
+}
+
+.player-card {
+    box-shadow: 10px 10px 40px #E8E8E8;
+    border-radius: 5px;
+    height: 250px;
+}
+
+.player img {
+    height: 110px;
+    width: 210px;
+}
+
+.player-text {
+
+
+    padding-left: 4%;
+    width: 200px;
+    margin-top: 4%;
+    font-weight: 600;
+
+
+
+}
+
+
+.player-para-text {
+    margin-top: 5%;
+    padding-right: 2%;
+}
+
+
+
+
+
+
+/* < !-- main section start here --> */
+
+/*  foooter starts from here  */
+.footer-section {
+
+    width: 100%;
+    height: 400px;
+    background-color: #161616;
+    margin-top: 10%;
+}
+
+.goal {
+    color: #FFFF;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 7%;
+    padding-bottom: 2%;
+
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.other-part {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    color: #B9B9B9;
+    margin: 0 auto;
+    padding-top: 3%;
+    font-size: small;
+}
+
+/*  foooter ends here  */
+
+
+
+
+
+/* Upcoming match page starts from here */
+
+.country {
+    width: 56%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2%;
+    row-gap: 7%;
+    padding-right: 5%;
+
+}
+
+.country-text {
+    padding-top: 7%;
+    padding-left: 15%;
+
+
+}
+
+.card-decoration {
+
+    width: 250px;
+    height: 200px;
+    background-color: #FFFF;
+    box-shadow: 10px 10px 40px #B9B9B9;
+    border-radius: 8px;
+    padding-top: 12%;
+}
+
+
+.county-banner {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+
+/*------- Upcoming match page ends  here ------*/
+
+/* social media part start here  */
+
+.social-media {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 3%;
+    font-size: small;
+
+}
+
+.fa-facebook.color,
+.fa-instagram.color,
+.fa-linkedin.color,
+.fa-youtube.color {
+    color: #B9B9B9;
+}
+
+/* end the social media part */
+
+/* blog-part */
+.blog-header {
+
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+/* end blog part */
+
+
+
+
+/* -------------Media Queries------------ */
+
+/* For Mobile Devices */
+
+
+@media only screen and (min-width:320px) and (max-width:480px) {}
