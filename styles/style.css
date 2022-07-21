@@ -28,16 +28,7 @@ body {
     margin: 0 auto;
     background-color: #161616;
     border-radius: 15px;
-
     display: flex;
-
-}
-
-.header-title img {
-    width: 50%;
-    height: 450px;
-    width: 400px;
-    padding-top: 5%;
 
 }
 
@@ -46,7 +37,15 @@ body {
     width: 50%;
     color: #FFFF;
     padding: 8%;
+}
 
+.header-img {
+    width: 50%;
+
+}
+
+.header-img img {
+    width: 70%;
 }
 
 .heading-1 {
@@ -172,7 +171,6 @@ body {
     background-color: red;
     margin-top: 18px;
     border-radius: 5px;
-
     padding: 10px;
 
 
@@ -186,19 +184,22 @@ body {
     padding: 10px;
 }
 
+
+
 .players {
 
-    width: 65%;
-    margin: 0 auto;
+    width: 100%;
+
 }
 
 
 .player {
-
+    width: 75%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 4%;
-    grid-column-gap: 2%;
+    grid-column-gap: 3%;
 
 
 
@@ -207,19 +208,19 @@ body {
 .player-card {
     box-shadow: 10px 10px 40px #E8E8E8;
     border-radius: 5px;
-    height: 250px;
+    height: 280px;
 }
 
 .player img {
-    height: 110px;
-    width: 210px;
+    height: 130px;
+    width: 260px;
 }
 
 .player-text {
 
 
     padding-left: 4%;
-    width: 200px;
+    width: 260px;
     margin-top: 4%;
     font-weight: 600;
 
@@ -229,7 +230,7 @@ body {
 
 
 .player-para-text {
-    margin-top: 5%;
+    margin-top: 7%;
     padding-right: 2%;
 }
 
@@ -282,14 +283,19 @@ hr {
 
 
 /* Upcoming match page starts from here */
+.countries {
+    width: 100%;
+}
 
 .country {
-    width: 65%;
+    width: 75%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 2%;
-    row-gap: 7%;
-    padding-right: 5%;
+    grid-column-gap: 4%;
+    grid-row-gap: 7%;
+
+
 
 }
 
@@ -302,7 +308,7 @@ hr {
 
 .card-decoration {
 
-    width: 220px;
+    width: 246px;
     height: 200px;
     background-color: #FFFF;
     box-shadow: 10px 10px 40px #B9B9B9;
@@ -361,6 +367,106 @@ hr {
 /* -------------Media Queries------------ */
 
 /* For Mobile Devices */
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+    .header-section {
+        width: 100%;
+    }
+
+    .containers {
+        width: 100%;
+
+    }
+
+    .container-1 {
+
+        flex-direction: column;
+    }
+
+    .container-2 {
+        margin-left: 38%;
+        margin-bottom: 10%;
+    }
+
+    .players,
+    .countries {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .player,
+    .country {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 1%;
+        margin-bottom: 20%;
 
 
-@media only screen and (min-width:320px) and (max-width:480px) {}
+    }
+
+    .footer-section {
+        margin-top: 40%;
+    }
+
+    .other-part {
+        display: block;
+        justify-content: space-between;
+        margin-left: 40%;
+
+    }
+
+}
+
+
+
+
+
+/* For tablet */
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+
+    .header-section {
+        width: 100%;
+
+
+    }
+
+    .containers {
+        width: 100%;
+
+
+    }
+
+    .container-1 {
+
+        flex-direction: column;
+    }
+
+    .container-2 {
+        margin-left: 38%;
+        margin-bottom: 5%;
+    }
+
+    .players,
+    .countries {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .player,
+    .country {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+
+    }
+
+    .footer-section {
+        margin-top: 40%;
+    }
+
+}
