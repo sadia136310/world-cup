@@ -368,9 +368,38 @@ hr {
 
 /* For Mobile Devices */
 @media only screen and (min-width:320px) and (max-width:480px) {
-
     .header-section {
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-title {
+        height: 600px;
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .header-text {
+
+        width: 80%;
+        text-align: center;
+        padding-left: 80px;
+    }
+
+
+    .header-img {
+        width: 80%;
+        margin-left: 25%;
+
+
+    }
+
+
+
+    .heading-1 {
+        font-size: 30px;
+
     }
 
     .containers {
@@ -383,8 +412,15 @@ hr {
         flex-direction: column;
     }
 
+
+
+
+
     .container-2 {
-        margin-left: 38%;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 10%;
+
         margin-bottom: 10%;
     }
 
@@ -406,21 +442,24 @@ hr {
 
     }
 
+    .blog-header {
+
+
+        margin-top: 10%;
+
+    }
+
     .footer-section {
         margin-top: 40%;
     }
 
     .other-part {
-        display: block;
-        justify-content: space-between;
-        margin-left: 40%;
+        flex-direction: column;
+        align-items: center;
 
     }
 
 }
-
-
-
 
 
 /* For tablet */
@@ -461,6 +500,7 @@ hr {
 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+
 
 
     }
